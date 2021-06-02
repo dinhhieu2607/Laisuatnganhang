@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lãi suất ngân hàng</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Money</th>
+            <th>Time</th>
+            <th>lai suat</th>
+            <th>        </th>
+        </tr>
+        <tr>
+            <td><input type="text" id="sotien"></td>
+            <td>
+                <select id="month">
+                <option value="6">6 month</option>
+                <option value="12">12 month</option>
+                <option value="24">24 month</option>
+                </select>
+            </td>
+            <td>
+                <select id="laisuat">
+                    <option value="0.05">5%</option>
+                    <option value="0.1">10%</option>
+                    <option value="0.15">15%</option>
+                    <option value="0.2">20%</option>
+                </select>
+            </td>
+            <td>
+                <button onclick="tinhtien()">Result</button>
+            </td>
+        </tr>
+    </table>
+    <script src="my.js"></script>
+</body>
+</html>
